@@ -1,0 +1,36 @@
+html {
+ height: 100%; 
+}
+
+body {
+  font-size: 11pt; 
+  font-family:'Arial'; 
+  font-weight: normal; 
+  color: #2a2e2e; 
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: #BFBFBF;
+}
+main {}
+footer {}
+
+.main-content {
+  border:1px solid black;
+  background: white;
+  position: relative; 
+  width: 100%; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  box-sizing: border-box; 
+}
+
+
+/* On screens that are 600px or less (Smartphones) */
+@media screen and (max-width: 600px) {
+	.grid { flex-direction:column }
+	.cell { width: 100% !important }
+}
